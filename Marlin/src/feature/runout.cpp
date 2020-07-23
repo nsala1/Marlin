@@ -122,7 +122,7 @@ void event_filament_runout() {
         #endif
       )
     ) {
-      host_action_paused(false);
+      host_action_paused(true);
     }
     else {
       // Legacy Repetier command for use until newer version supports standard dialog

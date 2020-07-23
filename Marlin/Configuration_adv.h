@@ -3054,7 +3054,7 @@
 /**
  * Include capabilities in M115 output
  */
-//#define EXTENDED_CAPABILITIES_REPORT
+#define EXTENDED_CAPABILITIES_REPORT
 #if ENABLED(EXTENDED_CAPABILITIES_REPORT)
   //#define M115_GEOMETRY_REPORT
 #endif
@@ -3204,7 +3204,7 @@
  * Host Prompt Support enables Marlin to use the host for user prompts so
  * filament runout and other processes can be managed from the host side.
  */
-//#define HOST_ACTION_COMMANDS
+#define HOST_ACTION_COMMANDS
 #if ENABLED(HOST_ACTION_COMMANDS)
   //#define HOST_PROMPT_SUPPORT
 #endif
